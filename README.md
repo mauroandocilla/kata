@@ -12,9 +12,11 @@
 `npm start`
 
 ❯ API Ruta
+
 | Ruta                   | Descripción | Método | Body - JSON | Resultado |
 | ---------------------- | ----------- | ------ | ----------- | --------- |
-| **/api/wizard/attack** | Obtener los ataques con las combinaciones que causen mayor daño | POST | {"red": number, "blue": number, "green": number, "yellow": number, "grey": number } | Ataques (posiones mezcladas y porcentaje de daño) y porcentaje de daño total => {"attacks":[{"quantity":number,"damage":number},...],"totalDamage":number}
+| **/api/wizard/attack** | Obtener los ataques con las combinaciones que causen mayor daño | POST | {"red": number, "blue": number, "green": number, "yellow": number, "grey": number } | Ataques (posiones mezcladas y porcentaje de daño) y porcentaje de daño total => {"attacks":[{"quantity":number,"damage":number},...],"totalDamage":number} |
+
 
 * Ejemplo
 
